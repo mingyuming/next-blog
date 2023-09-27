@@ -1,0 +1,14 @@
+.container {
+    flex-grow: 1;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.icon {
+    border-bottom: 1px dashed #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.article {
+    margin-top: 50px;
+}

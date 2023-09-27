@@ -1,0 +1,6 @@
+.icon {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    font-size: 14px;
+}

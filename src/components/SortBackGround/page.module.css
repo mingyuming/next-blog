@@ -1,0 +1,22 @@
+.wrapper {
+    position: relative;
+    height: 140px;
+    margin-bottom: 60px;
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.89);
+    padding: 20px 0;
+    text-shadow: 0 4px 8px rgba(7, 17, 27, 0.4);
+}
+
+.desc {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
+    color: hsla(0, 0%, 100%, 0.54);
+}
