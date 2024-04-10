@@ -5,3 +5,11 @@
     font-size: 14px;
     font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,å¾®è½¯é›…é»‘,Arial,sans-serif;
 }
+
+@media (max-width: 600px) {
+    .wrapper {
+        height: auto;
+        text-align: center;
+    }
+
+}
