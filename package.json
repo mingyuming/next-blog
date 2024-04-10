@@ -10,7 +10,8 @@
         "export": "next export",
         "start": "next start",
         "lint": "next lint",
-        "build-online": "npm config set puppeteer_skip_chromium_download true && npm install && npm run build"
+        "build-online": "npm config set puppeteer_skip_chromium_download true && npm install && npm run build",
+        "start-online": "git pull && npm run build && pm2 restart next-blog"
     },
     "dependencies": {
         "clsx": "^2.0.0",
