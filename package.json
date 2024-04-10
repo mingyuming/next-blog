@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "start:custom": "npm run build && npm start",
         "dev": "cross-env NODE_ENV=development PORT=3000 node server.js",
         "next": "next dev",
         "build": "next build",

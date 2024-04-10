@@ -1,6 +1,5 @@
 import {HomeContent} from '@/components/Home/Content';
 import styles from './page.module.css';
-import Image from 'next/image';
 
 export default async function Home(props) {
     const {data, info} = await fetch('http://39.101.169.247/api/home?page=1').then(res => res.json());

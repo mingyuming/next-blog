@@ -101,3 +101,12 @@
 
 .icon {
 }
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        justify-content: center;
+        width: 100%;
+        gap: 40px;
+    }
+}
