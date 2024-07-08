@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from './page.module.css';
 import BlogIcon from '@/components/BlogIcon';
 import Link from 'next/link';
@@ -12,10 +11,10 @@ export const HomeContent = ({data = [], info = []}) => {
                     <div className={styles.container} key={item.id}>
                         <div className={styles.bottom}>
                             <h4 className={styles.title}>{title}</h4>
-                            <BlogIcon params={{...item, leave: info[index]['count(*)']}} />
+                            <BlogIcon params={{...item, leave: info[index]?.['count(*)']}} />
                         </div>
                         <div className={styles.bg}>
-                            <Image src={url} alt="" className={styles.img} width={280} height={340} />
+                            <img src={url} alt="" className={styles.img} width={280} height={340} loading="lazy" />
                         </div>
                         <div className={styles['left-bgcover']}></div>
                         <div className={styles['right-bgcover']}></div>
