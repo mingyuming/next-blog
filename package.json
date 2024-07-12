@@ -7,6 +7,7 @@
         "dev": "cross-env NODE_ENV=development PORT=3040 node server.js",
         "next": "next dev",
         "build": "next build",
+        "build:no-cache": "NEXT_CACHE=false next build",
         "export": "next export",
         "start": "next start",
         "lint": "next lint",
