@@ -14,7 +14,7 @@ export const HomeContent = ({data = [], info = []}) => {
                             <BlogIcon params={{...item, leave: info[index]?.['count(*)']}} />
                         </div>
                         <div className={styles.bg}>
-                            <img src={url} alt="" className={styles.img} width={280} height={340} loading="lazy" />
+                            <img src={url} alt="" className={styles.img} width={280} loading="lazy" />
                         </div>
                         <div className={styles['left-bgcover']}></div>
                         <div className={styles['right-bgcover']}></div>
